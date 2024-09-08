@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib 
+scikit-learn
+torch
+transformers
+flask
+deep_translator
+tweepy
+python-dotenv
+gunicorn 
