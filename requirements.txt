@@ -6,6 +6,6 @@ torch
 transformers
 flask
 deep_translator
-tweepy
 python-dotenv
 gunicorn 
+ntscraper
