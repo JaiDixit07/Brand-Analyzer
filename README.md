@@ -9,12 +9,12 @@ The app also provides recommendations based on the predominant sentiment, helpin
 
 ## 🚀 Features
 
-- **Web Scraping**: Scrapes tweets from the internet related to a specific brand using ntscraper.
+- **Web Scraping**: Scrapes tweets from the internet related to a specific brand using `ntscraper`.
 - Preprocesses the tweets (removes URLs, mentions, hashtags, etc.).
-- Translates tweets to English if necessary using deep_translator.
-- **Transformers**: Uses a Hugging Face pre-trained RoBERTa model for sentiment analysis.
+- Translates tweets to English if necessary using `deep_translator`.
+- **Transformers**: Uses a `Hugging Face` pre-trained `RoBERTa model` for sentiment analysis.
 - Provides recommendations based on the predominant sentiment.
-- **Secure API Access & Flask**: Flask web application with a user-friendly API.
+- **Secure API Access & Flask**: `Flask` web application with a user-friendly API.
 
 ## 🏗️ Project Structure
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 - flask
 - deep_translator
 - python-dotenv
-- gunicorn(For deployment purpose) 
+- gunicorn`(For deployment purpose)` 
 - ntscraper
 
 # 🖥️ Usage
