@@ -432,7 +432,7 @@ def get_posts(brand, instance_index=0):
     scraper = Nitter()
     
     try:
-        tweets = scraper.get_tweets(query, mode='hashtag', number=50)
+        tweets = scraper.get_tweets(query, mode='hashtag', number=100)
     except Exception as e:
         if instance_index < len(NITTER_INSTANCES) - 1:
             return get_posts(brand, instance_index + 1)
@@ -507,3 +507,6 @@ def analyze():
 
 if __name__ == '__main__':
     app.run(debug=False)
+
+
+#  Code by - Jai Dixit

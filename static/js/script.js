@@ -106,3 +106,5 @@ function showAlert(message) {
         }, 500);
     }, 3000);
 }
+
+// By - Jai Dixit
